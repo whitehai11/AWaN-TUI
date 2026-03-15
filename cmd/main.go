@@ -6,9 +6,9 @@ import (
 
 	tea "github.com/charmbracelet/bubbletea"
 
-	"github.com/awan/awan-tui/api"
-	"github.com/awan/awan-tui/internal/updater"
-	"github.com/awan/awan-tui/ui"
+	"github.com/whitehai11/AWaN-TUI/api"
+	"github.com/whitehai11/AWaN-TUI/internal/updater"
+	"github.com/whitehai11/AWaN-TUI/ui"
 )
 
 func main() {
@@ -16,7 +16,7 @@ func main() {
 
 	updater.StartBackground(updater.Options{
 		AppName:        "AWaN TUI",
-		Repo:           "awan/tui",
+		Repo:           "whitehai11/AWaN-TUI",
 		Version:        Version,
 		BinaryBaseName: "awan-tui",
 		Args:           os.Args[1:],

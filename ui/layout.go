@@ -9,7 +9,7 @@ import (
 	tea "github.com/charmbracelet/bubbletea"
 	"github.com/charmbracelet/lipgloss"
 
-	"github.com/awan/awan-tui/api"
+	"github.com/whitehai11/AWaN-TUI/api"
 )
 
 type panelMode int

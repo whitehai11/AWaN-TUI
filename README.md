@@ -46,7 +46,7 @@ go run ./cmd
 
 ## Auto Updates
 
-AWaN-TUI defines a local version constant and checks the latest GitHub release for `awan/tui` in the background at startup.
+AWaN-TUI defines a local version constant and checks the latest GitHub release for `whitehai11/AWaN-TUI` in the background at startup.
 
 To disable auto updates for AWaN apps:
 

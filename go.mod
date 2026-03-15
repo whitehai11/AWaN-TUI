@@ -1,4 +1,4 @@
-module github.com/awan/awan-tui
+module github.com/whitehai11/AWaN-TUI
 
 go 1.22
 
